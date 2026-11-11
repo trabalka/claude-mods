@@ -1,0 +1,13 @@
+{
+  "name": "claude-mods",
+  "owner": {
+    "name": "trabalka"
+  },
+  "plugins": [
+    {
+      "name": "context-bar",
+      "source": "./mods/context-bar",
+      "description": "Draws the context window as a stacked bar above the prompt, one color per /context category. Toggle with /context-bar."
+    }
+  ]
+}

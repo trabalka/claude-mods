@@ -1,0 +1,4 @@
+.DS_Store
+.claude-plugin/types/
+mods/*/.claude-plugin/types/
+*.log
