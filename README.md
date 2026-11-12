@@ -33,14 +33,8 @@ marketplace with `trabalka/claude-mods`, then Add plugin.
 Update later with `claude plugin marketplace update claude-mods` and
 `claude plugin update context-bar@claude-mods`, then start a new session.
 
-### Cloud sessions (experimental, unsupported)
+### Where the bar shows
 
-Cloud sessions do not install plugins from user or repository settings. A
-cloud environment's setup script can try to install it in the VM:
-
-```bash
-claude plugin marketplace add trabalka/claude-mods && claude plugin install context-bar@claude-mods || true
-```
-
-Whether the cloud session then loads the mod and whether claude.ai draws the
-bar is not verified.
+The bar appears in the terminal and in the Code tab of the desktop app. In the
+VS Code extension's chat panel, under `claude -p` and in cloud sessions the mod
+can run, but nothing it draws is shown, so there is no bar there.
